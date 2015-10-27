@@ -1,0 +1,19 @@
+{
+  "name": "ivywebviewer-showcases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oustriem/IvyWebViewer-showcases.git"
+  },
+  "author": "FS & MB @ FHNW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oustriem/IvyWebViewer-showcases/issues"
+  },
+  "homepage": "https://github.com/oustriem/IvyWebViewer-showcases#readme"
+}
