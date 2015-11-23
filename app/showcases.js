@@ -30,7 +30,7 @@ bpmnViewer.importXML(qrDiagram, function (err) {
 var initIvyMarker = function () {
     // TODO: only used for the showcase, should be replaced with the REST API
     var executedElementIds = [
-        'START', 'FLOW_START_TO_MERGE', 'MERGE', 'FLOW_MERGE_TO_SCAN', 'SCAN_QR_CODE', 'FLOW_SCAN_TO_SCAN_OK', 'SCAN_OK', 'FLOW_SCAN_OK_TO_MERGE'
+        'START', 'FLOW_START_TO_MERGE', 'MERGE', 'FLOW_MERGE_TO_SCAN', 'SCAN_QR_CODE'
     ];
     var ivyMarker = bpmnViewer.get('ivyMarker');
 
@@ -58,7 +58,7 @@ var initIvyMarker = function () {
      * ERROR ELEMENTS
      */
     document.getElementById('mark-error-path-button').onclick = function () {
-        ivyMarker.highlightErrorElements(['SCAN_QR_CODE', 'FLOW_SCAN_TO_SCAN_OK', 'SCAN_OK']);
+        ivyMarker.highlightErrorElements(['SCAN_QR_CODE']);
     };
     document.getElementById('reset-error-path-button').onclick = function () {
         ivyMarker.unhighlightAllElements();
